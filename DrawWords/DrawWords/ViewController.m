@@ -4,7 +4,7 @@
 //
 //  Created by xiaogu on 16/1/4.
 //  Copyright © 2016年 leon yue. All rights reserved.
-//
+//  from : http://oleb.net/blog/2010/12/animating-drawing-of-cgpath-with-cashapelayer/
 
 #import "ViewController.h"
 #import <QuartzCore/QuartzCore.h>
