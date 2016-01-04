@@ -9,7 +9,18 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    CALayer *_animationLayer;
+    CAShapeLayer *_pathLayer;
+    CALayer *_penLayer;
+}
 
+@property (nonatomic, retain) CALayer *animationLayer;
+@property (nonatomic, retain) CAShapeLayer *pathLayer;
+@property (nonatomic, retain) CALayer *penLayer;
+
+- (IBAction) replayButtonTapped:(id)sender;
+- (IBAction) drawingTypeSelectorTapped:(id)sender;
 
 @end
 

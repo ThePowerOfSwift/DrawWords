@@ -13,6 +13,7 @@
 		595221931C3A688D007A5F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595221911C3A688D007A5F23 /* Main.storyboard */; };
 		595221951C3A688D007A5F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595221941C3A688D007A5F23 /* Assets.xcassets */; };
 		595221981C3A688D007A5F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595221961C3A688D007A5F23 /* LaunchScreen.storyboard */; };
+		595221A01C3A6AAB007A5F23 /* noun_project_347_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5952219F1C3A6AAB007A5F23 /* noun_project_347_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		595221941C3A688D007A5F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		595221971C3A688D007A5F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		595221991C3A688D007A5F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5952219F1C3A6AAB007A5F23 /* noun_project_347_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_project_347_2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		595221871C3A688D007A5F23 /* DrawWords */ = {
 			isa = PBXGroup;
 			children = (
+				5952219F1C3A6AAB007A5F23 /* noun_project_347_2.png */,
 				5952218B1C3A688D007A5F23 /* AppDelegate.h */,
 				5952218C1C3A688D007A5F23 /* AppDelegate.m */,
 				5952218E1C3A688D007A5F23 /* ViewController.h */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				595221981C3A688D007A5F23 /* LaunchScreen.storyboard in Resources */,
+				595221A01C3A6AAB007A5F23 /* noun_project_347_2.png in Resources */,
 				595221951C3A688D007A5F23 /* Assets.xcassets in Resources */,
 				595221931C3A688D007A5F23 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrawWords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yue.DrawWords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrawWords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yue.DrawWords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
